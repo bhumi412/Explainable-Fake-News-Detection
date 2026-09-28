@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+# Large / generated artefacts
+data/*.csv
+models/*.h5
+models/*.pkl
+models/*.npz
+models/*.json
+reports/*
+!reports/.gitkeep
+!data/.gitkeep
+!models/.gitkeep
